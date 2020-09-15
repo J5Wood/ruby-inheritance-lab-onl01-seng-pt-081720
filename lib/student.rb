@@ -10,7 +10,7 @@ class Student < User
      @knowledge << knowledge
    end
 
-   def detention(
+   def detention
      self.freeze
    end
 
