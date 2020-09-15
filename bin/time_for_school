@@ -19,6 +19,6 @@ jim.last_name = "Bo"
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-steve.detention
+steve.teacher(avi)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
