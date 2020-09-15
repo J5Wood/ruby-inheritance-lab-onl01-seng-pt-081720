@@ -17,7 +17,7 @@ jim.first_name = jim
 jim.last_name = Bo
 jim.learn("anything")
 
-some_knowledge = avi.teach 
+some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
