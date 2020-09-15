@@ -25,5 +25,11 @@ avi.add_class("history")
 
 puts avi.classes
 
+avi.add_class("ScienCE")
+
+puts avi.classes
+
+steve.sign_up_for_class("historY")
+
 puts steve.teacher.first_name
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
