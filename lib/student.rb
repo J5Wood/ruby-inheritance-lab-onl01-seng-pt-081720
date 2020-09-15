@@ -1,6 +1,6 @@
 class Student < User
 
-  attr_accessor :knowledge, :time, :freedom
+  attr_accessor :knowledge, :teacher
 
   def initialize
     @knowledge = []
@@ -13,5 +13,7 @@ class Student < User
    def detention
      self.freeze
    end
+
+   def teacher
 
 end
