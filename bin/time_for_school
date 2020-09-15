@@ -27,12 +27,12 @@ puts avi.classes
 
 avi.add_class("ScienCE")
 
-puts avi.classes
+puts "Avi's classes: \n"avi.classes
 
 steve.sign_up_for_class("historY")
 steve.sign_up_for_class("science")
 
-steve.classes
+puts "Steve's classes: "steve.classes
 
 puts steve.teacher.first_name
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
