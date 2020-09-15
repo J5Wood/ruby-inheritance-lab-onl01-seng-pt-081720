@@ -21,5 +21,9 @@ some_knowledge = avi.teach
 steve.learn(some_knowledge)
 steve.teacher = avi
 
+avi.add_class("history")
+
+puts avi.classes
+
 puts steve.teacher.first_name
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
