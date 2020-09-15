@@ -14,9 +14,6 @@ class Student < User
      self.freeze
   end
 
-  def teacher(teacher)
-    @teacher = teacher
-  end
 
   
 
