@@ -15,11 +15,10 @@ avi.last_name = "Flombaum"
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Bo"
-jim.learn("anything")
 
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-
+steve.detention
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
