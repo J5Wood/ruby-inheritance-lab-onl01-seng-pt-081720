@@ -6,18 +6,18 @@ class Student < User
     @knowledge = []
   end
 
-   def learn(knowledge)
+  def learn(knowledge)
      @knowledge << knowledge
-   end
+  end
 
-   def detention
+  def detention
      self.freeze
-   end
+  end
 
-   def teacher(teacher)
+  def teacher(teacher)
     @teacher = teacher
   end
 
-
+  
 
 end
