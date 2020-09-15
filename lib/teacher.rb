@@ -6,7 +6,7 @@ class Teacher < User
 
 
   def add_class(class_to_add)
-    Student.CLASSES.select do |class_name|
+    CLASSES.select do |class_name|
       if class_name.upcase == class_to_add.upcase
         @classes << class_name
       end
