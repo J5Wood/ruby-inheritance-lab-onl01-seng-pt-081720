@@ -19,7 +19,7 @@ jim.last_name = "Bo"
 some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
-steve.teacher(avi)
+steve.teacher = avi
 
 puts steve.teacher
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
