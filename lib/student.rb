@@ -11,7 +11,7 @@ class Student < User
    end
 
    def detention(
-     self.freeze     
+     self.freeze
    end
 
 end
