@@ -9,8 +9,9 @@ class Teacher < User
   end
 
   def add_class(class_to_add)
-    class_to_add
-
+    classes << class_to_add
+  end
+  
   def teach
     KNOWLEDGE.sample
   end
