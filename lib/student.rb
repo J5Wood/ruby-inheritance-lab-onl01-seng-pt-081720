@@ -14,6 +14,10 @@ class Student < User
      self.freeze
    end
 
-   def teacher
+   def teacher(teacher)
+    @teacher = teacher
+  end
+     
+     
 
 end
