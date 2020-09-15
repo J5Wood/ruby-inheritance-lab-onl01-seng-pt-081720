@@ -17,7 +17,7 @@ class Student < User
    def teacher(teacher)
     @teacher = teacher
   end
-     
-     
+
+
 
 end
