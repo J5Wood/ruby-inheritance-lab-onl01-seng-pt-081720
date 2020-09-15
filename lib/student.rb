@@ -11,8 +11,8 @@ class Student < User
       end
     end
   end
-        
-        
+
+
 
   def initialize
     @knowledge = []
